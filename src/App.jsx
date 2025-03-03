@@ -119,20 +119,7 @@ function App() {
             bathroom={property.bathroom}
           />
         ))}
-    {/* <Card/> */}
-    {/* <Card/>
-    <Card/> */}
     </div>
-    {/* <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-[94%] lg:w-[72%] mx-auto mt-16 gap-4'>
-    <Card/>
-    <Card/>
-    <Card/>
-    </div>
-    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-[94%] lg:w-[72%] mx-auto mt-16 gap-4'>
-    <Card/>
-    <Card/>
-    <Card/>
-    </div> */}
     </>
   )
 }

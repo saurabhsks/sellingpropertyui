@@ -6,7 +6,7 @@ import { faMapMarkerAlt, faBed, faBath, faHeart } from "@fortawesome/free-solid-
 
 function Card({image, views, price, apartment, address, BHK, bathroom}) {
   return (
-    <div className="container">
+    <div className="container mt-6">
     <div className="flex justify-between !mb-2">
         <div className="font-bold font-sans text-[15px]">Views: {views}</div>
         <div className="bg-[#b1b1b1] uppercase text-[12px] font-semibold text-white px-[10px] py-[2px] float-left mr-[11px] relative">
@@ -33,7 +33,6 @@ function Card({image, views, price, apartment, address, BHK, bathroom}) {
             </div>
             
             <span className="text-blue-600 font-18 font-semibold font-sans text-lg">₹ {price} Lacs</span>
-            {/* <div className="float-right bg-[#e30000] p-[5px] h-[35px]">360</div> */}
 
         </div>
         <h3 className="text-[17px] mb-[10px] p-0 font-sans font-bold">{apartment}</h3>
@@ -42,10 +41,6 @@ function Card({image, views, price, apartment, address, BHK, bathroom}) {
         <div className="flex h-[2rem]">
             <span className="m-0 p-[0_10px_0_0] list-none inline-block font-extrabold"><FontAwesomeIcon icon={faBed} className="text-gray-500 mr-1" />{BHK} BHK</span>
             <span className="m-0 p-[0_10px_0_0] list-none inline-block font-extrabold"><FontAwesomeIcon icon={faBath} className="text-gray-500 mr-1" />{bathroom}</span>
-            {/* <div className="ml-auto">Love</div> */}
-            {/* <div className="ml-auto text-gray-500 hover:text-red-500">
-                 <FontAwesomeIcon icon={faHeart} />
-            </div> */}
             <div className="ml-auto flex items-center">
            <div className="w-8 h-8 flex items-center justify-center rounded-full border border-gray-400 text-gray-500 hover:text-white hover:bg-red-600 cursor-pointer">
             <FontAwesomeIcon icon={faHeart} />
